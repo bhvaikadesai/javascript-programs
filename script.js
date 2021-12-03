@@ -83,23 +83,94 @@
 //     console.log("You should get a job!");
 // }
 
-const age = '20';
-if (age === 20) console.log('you just became an adult :D (strict)');
-if(age == 20) console.log('you just beacame an adult :D (loose)')
+// const age = '20';
+// if (age === 20) console.log('you just became an adult :D (strict)');
+// if(age == 20) console.log('you just beacame an adult :D (loose)')
 
-const favourit = Number(prompt("What's Is Your Age?"));
-console.log(favourit);
-console.log(typeof favourit);
+// const favourit = Number(prompt("What's Is Your Age?"));
+// console.log(favourit);
+// console.log(typeof favourit);
 
 
-if(favourit == 25){
-    console.log("what favourit is true?");
-}else(
-    console.log("what favourit is false?")
-)
+// if(favourit == 25){
+//     console.log("what favourit is true?");
+// }else(
+//     console.log("what favourit is false?")
+// )
 
-if(favourit !== 25){
-    console.log("why favourit not 20?")
+// if(favourit !== 25){
+//     console.log("why favourit not 20?")
+// }
+
+
+// const haslicense = false;
+// const goodvision = true;
+
+// console.log(haslicense &&  goodvision);
+// console.log(haslicense ||  goodvision);
+
+// const day = 'monday';
+// switch(day){
+//     case 'monday':
+//     console.log('plan course structure')
+//     console.log('go to coding meetup');
+//     break;
+
+//     case 'tuesday':
+//     console.log('prepare theory video');
+//     break;
+
+//     case 'wednesday':
+//     case 'thursday':
+//     console.log('write code exmaples');
+//     break;
+//     case 'friday':
+//     console.log('record video');
+//     case 'saturday':
+//     case 'sunday':
+//     console.log('Enjoy the weekend :D');
+//     break;
+//     default:
+//         console.log('not a vaild day!');
+
+// }
+
+const day = 5;
+var dayname;
+switch(day){
+   case 1:
+    dayname = 'sunday';
+    break;
+
+    case 2:
+        dayname = 'monday';
+        break;
+
+    case 3:
+        dayname = 'tuesday';
+        break;
+    
+    case 4:
+        dayname = 'wednesday';
+        break;
+
+    case 5:
+        dayname = 'thuesday';
+        break;
+    
+    case 6:
+        dayname = 'friday';
+        break;
+
+    case 7:
+        dayname = 'saturday';
+        break;
+
+    default:
+        dayname = 'invalid day';
+
 }
+console.log(dayname);
+
 
 
